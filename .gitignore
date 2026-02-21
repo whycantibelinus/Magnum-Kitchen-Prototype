@@ -4,18 +4,24 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-UserSettings/
-MemoryCaptures/
+[Uu]ser[Ss]ettings/
 
-# Visual Studio
+# Visual Studio / Rider
 .vs/
+.vscode/
 *.csproj
-*.unityproj
 *.sln
 *.suo
-*.tmp
 *.user
 *.userprefs
 *.pidb
 *.booproj
 *.svd
+
+# Unity generated
+*.unitypackage
+*.meta~
+.DS_Store
+
+# Crash reports
+sysinfo.txt
